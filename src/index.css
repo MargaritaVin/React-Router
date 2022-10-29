@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  color: rgb(112, 66, 155);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,126 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+
+  margin: 0 auto;
+  padding: 20px 0;
+}
+h1{
+  margin: 0;
+}
+.active {
+  color: red;
+  font-weight: bold;
+}
+.header-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border: 2px solid red;
+  margin: 0 0 50px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding: 13px 20px;
+}
+.item-header:hover{
+  background-color: #605DEC;
+  border-radius: 4px;
+}
+li:hover a{
+  color: #FAFAFA;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7C8DB0;
+}
+a:hover{
+  color: red;
+  font-weight: bold;
+}
+.heading-home{
+  text-align: center;
+  font-size: 60px;
+  padding: 98px 0;
+}
+.error-text{
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+.link-home{
+  display: block;
+  text-align: center;
+}
+table {
+  font-size: 25px;
+  margin: 0 auto;
+}
+th {
+  font-weight: normal;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid white;
+  color: #039;
+  padding: 10px 40px;
+}
+td {
+  background: #e8edff;
+  border-bottom: 1px solid white;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+tr:hover td {
+  background: #ccddff;
+}
+button {
+  margin: 0 50px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #605DEC;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8684e9;
+}
+.list-user{
+  display: block;
+}
+h2,
+.heading-user{
+  text-align: center;
+}
+.block-inf{
+  display: flex;
+}
+.list-inf{
+  display: block;
+  font-size: 19px;
+}
+.list-user{
+  border: 1px solid;
+  font-size: 19px;
+  background-color: #e8edff;
+}
+.link-back{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 0;
 }
