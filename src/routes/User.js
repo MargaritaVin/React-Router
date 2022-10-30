@@ -55,12 +55,6 @@ const User = () => {
             <li key={user.id}>City: {user.address.city}</li>
             <li key={user.id}>Postal code: {user.address.postalCode}</li>
             <li key={user.id}>State: {user.address.state}</li>
-            <li key={user.id}>{user.bank.cardNumber}</li>
-            <li key={user.id}>{user.company.address.address}</li>
-            <li key={user.id}>{user.company.address.city}</li>
-            <li key={user.id}>{user.company.department}</li>
-            <li key={user.id}>{user.company.name}</li>
-            <li key={user.id}>{user.company.title}</li>
         </ul>
         <h3>Work:</h3>
         <ul className="list-user"> 
