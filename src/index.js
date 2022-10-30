@@ -6,7 +6,6 @@ import './index.css';
 import Header from './components/Header';
 import Home from './routes/Home';
 import Users from './routes/Users';
-import Hotels from './routes/Hotels';
 import {NotFound} from './routes/NotFound';
 import User from './routes/User';
 
@@ -28,10 +27,6 @@ const router = createBrowserRouter([
       {
         path: "users/:userId",
         element: <User/>,
-      },
-      {
-        path: "hotels",
-        element: <Hotels/>,
       },
     ]
   }

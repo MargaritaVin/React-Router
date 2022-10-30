@@ -10,13 +10,5 @@ export const NotFound = () => {
   );
 };
 
-export const NotFoundHotels = () => {
-    return (
-      <>
-        <h3 className="error-text">404 not found</h3>
-        <Link to="/" className="link-home">Go to Home page</Link>
-      </>
-    );
-};
 
 
